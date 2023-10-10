@@ -1,3 +1,45 @@
-body{
-    margin: 100px;
+body {
+  margin: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.wrapper {
+  display: block;
+  margin-bottom: 75px;
+}
+/* FIRST DIV */
+.box {
+  background: #3cf;
+  border-radius: 5px;
+  width: 100px;
+  height: 75px;
+  /* with transition both property i cn change the transition */
+  /* I have not to be in the hover if you want setting return back */
+  transition-property: background;
+  transition-duration: 1s;
+  /* shtort */
+  /* transition:all 1s */
+}
+
+.box:hover {
+  background-color: blue;
+  height: 100px;
+}
+
+/* SECOND DIV  transition duration */
+
+.coontainer {
+  display: inline-block;
+  margin: 0 1em 20px 0;
+}
+
+.box {
+  background: #3cf;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
