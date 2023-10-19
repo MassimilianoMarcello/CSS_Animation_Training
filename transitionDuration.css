@@ -1,0 +1,44 @@
+/* SECOND DIV  transition duration */
+.wrapper2:hover .box1 {
+    width: 150px;
+    height: 150px;
+    margin: 150px;
+  }
+
+  /* vedi la differenza tra i due selettori:
+  col primo l'effetto viene applicato a tutti gli elementi 
+  quando ne tocchi uno. Nel secondo caso viene applicato 
+  singolarmente */
+
+  /* .wrapper2 .box1:hover {
+    width: 150px;
+  } */
+  
+  .container {
+    display: inline-block;
+    margin: 0 1em 20px 0;
+    }
+  
+  .box1 {
+    background: #3cf;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transition: width, height;
+    margin: 19px;
+  }
+  
+  .box2 {
+    transition-duration: 500ms;
+  }
+  .box3 {
+    transition-duration: 1s;
+  }
+  .box4 {
+    transition-duration: 4s;
+  }
+  
+ 

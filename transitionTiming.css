@@ -1,0 +1,47 @@
+body{
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.wrapper{
+    display: block;
+    margin-bottom: 75px;
+}
+
+.spere{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 12px;
+    transition: margin 2s;
+
+}
+
+/* il prossimo selettore fara funzionare l'animazione quando passiamo il mouse nella box rapper
+ ma ha effetto sugli elementi.sphere */
+
+.wrapper:hover .spere{
+    margin-left: 400px;
+}
+
+
+
+.s1{
+background: #fcd34d;
+transition-timing-function: linear;
+}
+.s2{
+    background: #a3e635; 
+}
+.s3{
+    background: #5eead4; 
+}
+.s4{
+    background: #e879f9;
+}
+.s5{
+    background: #db2777;
+}

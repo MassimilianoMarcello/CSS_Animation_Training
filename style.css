@@ -4,61 +4,26 @@ body {
   color: #fff;
 }
 
-/* .wrapper1 {
+.wrapper1 {
   display: block;
   margin-bottom: 75px;
-} */
+}
 /* FIRST DIV */
-/* .box {
+.box {
   background: #3cf;
   border-radius: 5px;
   width: 100px;
-  height: 75px; */
+  height: 75px; 
   /* with transition both property i cn change the transition */
   /* I have not to be in the hover if you want setting return back */
   transition-property: background;
   transition-duration: 1s;
-  /* shtort */
-  /* transition:all 1s */
+  /* short */
+  /* transition:all 1s*/
 }
 
-/* .box:hover {
+.box:hover{
   background-color: blue;
-  height: 100px; */
+  height: 100px;
 }
 
-/* SECOND DIV  transition duration */
-.wrapper2:hover .box1 {
-  width: 150px;
-}
-
-.coontainer {
-  display: inline-block;
-  margin: 0 1em 20px 0;
-  border: solid 2px black;
-}
-
-.box1 {
-  background: #3cf;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  transition: widht, height;
-}
-
-.box2 {
-  transition-duration: 1s;
-}
-.box3 {
-  transition-duration: 1s;
-}
-.box4 {
-  transition-duration: 3s;
-}
-
-div {
-  margin: 19px;
-}
