@@ -35,12 +35,15 @@ transition-timing-function: linear;
 }
 .s2{
     background: #a3e635; 
+    transition-timing-function:ease-in-out;
 }
 .s3{
     background: #5eead4; 
+    transition-timing-function:ease-in;
 }
 .s4{
     background: #e879f9;
+    transition-timing-function:cubic-bezier(0.615, 0.82, 0.165, 1);
 }
 .s5{
     background: #db2777;

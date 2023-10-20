@@ -1,0 +1,43 @@
+body{
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+
+.sphere{
+max-width: 25px;
+max-height: 25px;
+border-radius: 100px;
+padding: 5px;
+margin: 15px;
+text-align: center;
+transition: margin 2s;
+}
+
+
+
+.wrapper:hover .sphere{
+    margin-left: 400px;
+}
+
+
+
+.s1{
+    background: #fcd34d;
+    transition-delay: -.5s;
+    }
+    .s2{
+        background: #a3e635; 
+        transition-delay: 1.5s;
+       
+    }
+    .s3{
+        background: #5eead4; 
+        transition-delay: .5s;
+      
+    }
+    .s4{
+        background: #e879f9;
+        transition-delay: 2.5s;
+    }
