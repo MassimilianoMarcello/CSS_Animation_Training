@@ -1,0 +1,13 @@
+
+.box{
+    background: #001122;
+    border-radius: 12px;
+    width: 122px;
+    height: 122px;
+    margin: 50px;
+    transition: transform 1.5s;
+}
+
+.box:hover{
+    transform: scale(2,.5);
+}
