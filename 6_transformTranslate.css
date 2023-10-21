@@ -1,0 +1,20 @@
+.box{
+    width: 122px;
+   height: 122px;
+    background-color: aquamarine;
+    margin: 100px;
+    border-radius: 12px;
+    position: absolute;
+    transition: transform .2s;
+}
+
+.b1{
+    background-color: aquamarine;
+}
+.b2{
+    background-color: rgb(227, 127, 255);
+}
+
+.b2:hover{
+    transform:translate(10px) ;
+}
