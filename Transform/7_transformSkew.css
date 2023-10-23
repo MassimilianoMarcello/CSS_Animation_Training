@@ -1,0 +1,39 @@
+.box {
+  width: 122px;
+  height: 122px;
+  background-color: aquamarine;
+  margin: 100px;
+  border-radius: 12px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 26px;
+}
+
+.box1:hover {
+    transform: skewX(30deg);
+}
+
+
+.box2:hover {
+    transform: skewY(30deg);
+    
+}
+.box3:hover {
+    transform: skewX(-30deg);
+    
+}
+
+.box4:hover {
+    transform: skewY(-30deg);
+    
+}
+
+/* shrt end per inserire tutte due gli ass
+>box:hover{ transform: Skew(30deg, -10deg)}
+*/
+
+/* fare che  Hello non vada nella stessa direzione della box creare un p e settare con meno gli stessi  valori del container */
+
+.box1:hover p {
+    transform: skewX(-30deg);
+}
