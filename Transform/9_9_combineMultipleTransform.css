@@ -10,4 +10,11 @@
 
 .drop:hover{
     background: #9e1d1d;
+    transform:rotate(90deg) scale(1.5) translate(60px) skewx(50deg);
+}
+/* the order of these values changes the result */
+
+.drop.d2:hover{
+    background: #9e1d1d;
+    transform:  translate(60px)rotate(90deg) skewx(50deg)scale(1.5);
 }
